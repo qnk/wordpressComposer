@@ -1,0 +1,16 @@
+wp-config.php
+.htaccess
+
+# Don’t ignore plugins dir, but ignore everything inside
+!/wp-content/plugins
+/wp-content/plugins/*
+
+# Don’t ignore akismet plugin
+!/wp-content/plugins/akismet
+
+# Don’t ignore themes dir, but ignore everything inside
+!/wp-content/themes
+/wp-content/themes/*
+
+# Don’t ignore evolve-child theme
+!/wp-content/themes/evolve-child
