@@ -142,5 +142,27 @@
         "type": "wordpress-theme",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/themes/evolve/"
+    },
+    {
+        "name": "wpackagist-plugin/woocommerce",
+        "version": "2.5.2",
+        "version_normalized": "2.5.2.0",
+        "source": {
+            "type": "svn",
+            "url": "http://plugins.svn.wordpress.org/woocommerce/",
+            "reference": "tags/2.5.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/woocommerce.2.5.2.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/woocommerce/"
     }
 ]
